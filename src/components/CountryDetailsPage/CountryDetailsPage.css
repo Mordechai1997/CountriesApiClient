@@ -1,0 +1,23 @@
+.back-btn {
+    cursor: pointer;
+    color: blue;
+}
+.container-country-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-country-details-text{
+    width: 300px;
+}
+.container-country-details > img{
+    width: 280px;
+    height:180px;
+    border: 1px solid;
+
+}
+@media only screen and (max-width: 750px) {
+    .container-country-details{
+        flex-direction: column;
+    }
+}

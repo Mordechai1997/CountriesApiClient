@@ -1,0 +1,83 @@
+.form-select-input-and-text-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .select-input,
+  .text-input {
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 2px 5px;
+  }
+
+  .text-input {
+    width: 250px;
+  }
+  
+  .text-input:focus-visible {
+    border: none;
+  }
+  
+  .select-input {
+    width: 260px;
+    margin-bottom: 10px;
+  }  
+
+  .country-details-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .country-details{
+    margin: 5px 0;
+  }
+  
+.single-country {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    margin: 25px auto;
+    padding: 2px 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .single-country-box-img {
+    width: 120px;
+    height: 80px;
+  }
+  
+  .single-country-text {
+    width: 60%;
+  }
+  
+  .single-country-text>p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 750px) {
+  
+    .select-input {
+      width: 90%;
+    }
+  
+    .text-input {
+      width: 87%;
+    }
+  
+    .single-country {
+      width: 92%;
+    }
+    .single-country-box-img {
+      width: 30%;
+    }
+  }
